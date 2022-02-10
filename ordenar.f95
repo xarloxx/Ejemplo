@@ -3,6 +3,7 @@ module ordenar
     contains 
 !_________________________________________________________________________________________________
     subroutine ord_intercambio(X,n)
+        integer :: z
         integer :: i, j, aux
         integer :: X(n)
 
